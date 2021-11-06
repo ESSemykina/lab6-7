@@ -6,11 +6,11 @@ int main()
 	bool chislo = false;
 	int min = mas[0][0];
 	std::cin >> n >> m;
-	vvod(n, m, mas);
-	poiskmin(min, mas, n, m);
-	poiskprost(chislo, n, m, mas, povtor1, prost);
-	umnojmat(mas2, n, m, mas);
-	chetmin(povtor, min, mas, m, n);
-	proverka(povtor, povtor1, mas2, mas, n, m);
-	output(mas, n, m);
+	ks::vvod(n, m, mas);
+	ks:poiskmin(min, mas, n, m);
+	ks:poiskprost(chislo, n, m, mas, povtor1, prost);
+	ks:umnojmat(mas2, n, m, mas);
+	ks:chetmin(povtor, min, mas, m, n);
+	ks:proverka(povtor, povtor1, mas2, mas, n, m);
+	ks:output(mas, n, m);
 }
