@@ -4,6 +4,8 @@
 #include<iostream>
 #include<math.h>
 #include "SomeFunctions.hpp"
+namespace ks
+{
 void vvod(int& n, int& m, int mas[N][M])
 {
 
@@ -113,4 +115,5 @@ void output(int mas[N][M], int n, int m)
 		}
 		std::cout << " \n";
 	}
+}
 }
